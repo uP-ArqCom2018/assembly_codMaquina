@@ -1,4 +1,4 @@
-# Assembly resolusión for.
+# Assembly resolución for.
 
 Se debe resolver la siguiente iteración mediante assembly.
 
