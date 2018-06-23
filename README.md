@@ -1,11 +1,11 @@
 # Assembly resolución for.
 
 Se debe resolver la siguiente iteración mediante assembly.
-
+```
 for(i=0;i<100;i++){
 	x[i]=x[i]+2*i;
 }
-
+```
 ## Código assembly RISC-V
 ```
 		add X4,X0,100	--Carga de valor necesario para comparación
