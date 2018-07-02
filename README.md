@@ -35,7 +35,7 @@ addi	0000 0000 0001 0000 1000 0000 1001 0011 = x00108093
 bne 	1111 1110 0100 0000 1001 1010 1110 0011 = xFE409BE3
 ```
 
-Como la memoria de programa tiene un ancho de palabra de 8 bits, el bloque a grabar en la misma debe ser el siguiente.
+Como la memoria de programa tiene un ancho de palabra de 8 bits, el bloque a grabar en la misma debe ser el siguiente:
 ```
 Pos | Dato
 0	0000 0110 
@@ -74,8 +74,7 @@ Pos | Dato
 
  
  
-Invierto la posición de los bytes para poder asignarla en la memoria de programa
- 
+* **Invierto la posición de los bytes para poder asignarla en la memoria de programa.**
  
 ```
 11100011
