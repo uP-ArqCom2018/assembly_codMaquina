@@ -15,7 +15,7 @@ loop:		lw X9,10(X1)    --carga el valor desde memoria			08
 		add X9,X2,X9	--X9=X9+X2									16
 		sw X9,10(X1)	--guardo X9 en memoria						20
 		addi X1,X1,1	--X1=X1+1 sumo 1 a contador				24
-		blt X1,X4,loop 	--salta si X1 es menor a 100				28
+		bne X1,X4,loop 	--salta si X1 es distinto a 100				28
 ```
 **Aclaraciones necesarias:**
 * loop: debe ser igual a -20, para saltar a la instrucción que se encuentra en la posición 8.
